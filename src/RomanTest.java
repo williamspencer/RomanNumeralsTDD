@@ -15,6 +15,14 @@ public class RomanTest {
 	public void test3() {
 		assertEquals("III", Roman.intToRoman(3));
 	}
+	@Test
+	public void test4() {
+		assertEquals("IV", Roman.intToRoman(4));
+	}
+	@Test
+	public void test5() {
+		assertEquals("V", Roman.intToRoman(5));
+	}
 	
 
 }
