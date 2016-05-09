@@ -39,5 +39,9 @@ public class RomanTest {
 	public void test9() {
 		assertEquals("IX", Roman.intToRoman(9));
 	}
+	@Test
+	public void test10() {
+		assertEquals("X", Roman.intToRoman(9));
+	}
 
 }
