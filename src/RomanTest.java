@@ -27,6 +27,17 @@ public class RomanTest {
 	public void test6() {
 		assertEquals("VI", Roman.intToRoman(6));
 	}
-	
+	@Test
+	public void test7() {
+		assertEquals("VII", Roman.intToRoman(7));
+	}
+	@Test
+	public void test8() {
+		assertEquals("VIII", Roman.intToRoman(8));
+	}
+	@Test
+	public void test9() {
+		assertEquals("IX", Roman.intToRoman(9));
+	}
 
 }
