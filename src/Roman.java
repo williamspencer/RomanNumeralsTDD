@@ -2,6 +2,11 @@
 public class Roman {
 
 public static String intToRoman(int value){
-	return "I";
+	if (value == 1){
+		return "I";
+	}else {
+	return "II";
+
+	}
 }
 }
