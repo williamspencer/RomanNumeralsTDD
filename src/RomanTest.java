@@ -41,7 +41,11 @@ public class RomanTest {
 	}
 	@Test
 	public void test10() {
-		assertEquals("X", Roman.intToRoman(9));
+		assertEquals("X", Roman.intToRoman(10));
+	}
+	@Test
+	public void test11() {
+		assertEquals("XI", Roman.intToRoman(11));
 	}
 
 }
