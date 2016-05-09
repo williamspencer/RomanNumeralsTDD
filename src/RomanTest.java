@@ -13,7 +13,7 @@ public class RomanTest {
 	}
 	@Test
 	public void test3() {
-		assertEquals("III", Roman.intToRoman(2));
+		assertEquals("III", Roman.intToRoman(3));
 	}
 	
 
