@@ -3,6 +3,11 @@ public class Roman {
 
 public static String intToRoman(int value){
 	String roman = "";
+	
+	if (value == 5){
+		roman = "V";
+		value -= 5;
+	}
 	if (value == 4){
 		roman = "IV";
 		value -= 4;

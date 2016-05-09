@@ -23,6 +23,10 @@ public class RomanTest {
 	public void test5() {
 		assertEquals("V", Roman.intToRoman(5));
 	}
+	@Test
+	public void test6() {
+		assertEquals("VI", Roman.intToRoman(6));
+	}
 	
 
 }
