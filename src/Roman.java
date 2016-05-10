@@ -3,11 +3,16 @@ public class Roman {
 
 public static String intToRoman(int value){
 	String roman = "";
+	int [] arabicNum = {10};
+	String [] romanNum = {"X"};
 	
-	if (value >= 10){
-		roman = "X";
-		value -= 10;
+	for(int i = 0; i < arabicNum.length; i++){
+		while (value >= arabicNum[i]){
+			roman += romanNum[i];
+			value -= arabicNum[i];
+		}
 	}
+
 	if (value == 9){
 		roman = "IX";
 		value -= 9;
