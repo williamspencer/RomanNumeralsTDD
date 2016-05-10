@@ -13,10 +13,6 @@ public static String intToRoman(int value){
 		}
 	}
 
-	if (value == 9){
-		roman = "IX";
-		value -= 9;
-	}
 	if (value >= 5){
 		roman = "V";
 		value -= 5;
