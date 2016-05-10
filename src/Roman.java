@@ -3,8 +3,8 @@ public class Roman {
 
 public static String intToRoman(int value){
 	String roman = "";
-	int [] arabicNum = {10};
-	String [] romanNum = {"X"};
+	int [] arabicNum = {10,9};
+	String [] romanNum = {"X","IX"};
 	
 	for(int i = 0; i < arabicNum.length; i++){
 		while (value >= arabicNum[i]){
@@ -13,10 +13,6 @@ public static String intToRoman(int value){
 		}
 	}
 
-	if (value >= 5){
-		roman = "V";
-		value -= 5;
-	}
 	if (value == 4){
 		roman = "IV";
 		value -= 4;
