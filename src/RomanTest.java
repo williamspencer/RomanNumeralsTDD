@@ -47,5 +47,12 @@ public class RomanTest {
 	public void test11() {
 		assertEquals("XI", Roman.intToRoman(11));
 	}
+	@Test
+	public void test2016() {
+		assertEquals("MMXVI", Roman.intToRoman(2016));
+	}
+	public void test3999() {
+		assertEquals("MMMCMXCIX", Roman.intToRoman(3999));
+	}
 
 }
